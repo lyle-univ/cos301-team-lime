@@ -1,8 +1,20 @@
 \documentclass{article}
-
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
 \begin{document}
 \title{NavUp Requirements specification}
 \maketitle
+\newpage
+{\let\cleardoublepage\clearpage 
+\maketitle
+\tableofcontents
+}
 \section{Introduction}
 	\subsection{Purpose}
 	\input{Introduction/Purpose}
