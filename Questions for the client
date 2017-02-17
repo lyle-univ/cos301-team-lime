@@ -9,26 +9,28 @@ Note that crowd-sourcing cannot include location data of a device since its sign
 Could you enumerate the different 'level of users or agents' that the system will support?
 What agents should the system support?
 What users and agents will have access to the raw data?
-What users and agents will have access to the surveilance feature?
+What users and agents will have access to the surveillance feature?
 How should users and agents be authenticated?
 Where does the web interface fit in? What will it be used for?
+For mobile users, will the program run in the background all the time. How will this affect battery drain?
 
 Extension of scope:
   Perhaps security alerts can be pushed to users. Such as unrest due to protests or any other security issues. This will promote user retention and adoption after the fist part of the semester where people are still learning the layout of the campus.
 
 Has the client made sure that all system requirements are in line with restrictions by law?
 The below wall of text is only a small part of the sticky mess that is POPI compliance if user data is collected in the way suggested.
+I would recommend we urge the client to consult someone from the law faculty that specialises in legal compliance to acts such as POPI.
 
 Regarding targeted delivery of information:
   This has a huge security implication since devices will need to have a persistent identity attached to it for targeted delivery to function as expected.
   A breach will infringe on the privacy of all of its users. An adversary can build a complete profile of each user and its social networks.
-  How long will this infomation be stored?
+  How long will this information be stored?
   Where will it be stored?
   How should it be protected?
 
 According to POPI section 11.2.b, a data subject may withdraw consent for its data to be used. This data must be removed within a reasonable time. How will we facilitate this requirement?
 
-How should we convey to the user the purpose and the type of infomation that will be collected?
+How should we convey to the user the purpose and the type of information that will be collected?
 
 How will the process for access to data subject information be implemented?
   Condition 8 Data subject participation
@@ -46,7 +48,7 @@ How will the process for access to data subject information be implemented?
   (iii)  in a reasonable manner and format; and
   (iv)  in a form that is generally understandable.
 
-How should we implement the folling complaince requirement:
+How should we implement the following compliance requirement:
   24.
   (1) A data subject may, in the prescribed manner, request a responsible party to—
   (a)correct or delete personal information about the data subject in its possession
