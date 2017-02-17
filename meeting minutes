@@ -5,3 +5,33 @@ Feb13 2017
   Discussions:
     Started with a rough high level description of the system. First a layered architecture followed by some doodles describing what data flows where, from and to the datastore.
     In addition we started drafting the layout of the main document to facilitate future delegation.
+
+Feb 17 2017
+Meeting with Client
+Points Raised/Discussed:
+-Could push out information to the user
+-Focus on the requirements specification
+-Storage of data -> use more than one datapoint (prevent compromising of data e.g information only makes sense when 2 databases are put together)
+-Can also use generic  profiling of the users
+-We are allowed to use WiFi, GPS, Google Maps and cell phone towers.
+-Preferred method is a GIS system that is tailored to the geographic location.
+-Heatmaps -> Traffic congestion
+-Developing for Android and IOS possibly
+-Application needs to have indoor navigation
+-Indoor navigation can be done using a list of instructions.
+-Need to decide on our own navigation parameters.
+-Admins need to be able to add activities at a particular location.
+-Crowd-sourcing for determining access points/congestion -> can be static, dynamic or hybrid.
+-Statistical information as well as on-the-go information.
+-System will need to be self-calibrating if on-the-go analysis is done.
+-Focus less on the offline functionality, but more online -> although it must have the feature of offline navigation where there are breaks in wifi etc.
+-We are able to just scan for available access points and determine positioning information from that.
+-Different Users: Guest
+                  Students
+                  Administrator
+                  Lecturers
+-Just a proof of concept -> No restrictions are implied
+-Don't worry about battery drainage.
+-Possibly use concentration of android phones for heat mapping.
+-Incentivise the application.
+-Any add-ons are acceptable.
