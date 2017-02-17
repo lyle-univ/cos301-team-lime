@@ -2,3 +2,33 @@ Will GPS be allowed as part of the available sensors, considering the loss of wi
 What platform will it be developed for?
 May we make use of google maps?
 Is data capture part of the project scope? That is the enumeration of building names, positions and routes.
+Discuss legal requirements such as POPI act. This requires that data be stored in a secure manner and reasonable measures must be taken to protect the data from unauthorised access.
+Main points of discussion in the POPI act are the following items:
+    Accountability
+    Processing limitation
+      Lawfulness of processing
+      Minimality
+      Consent, justification and objection
+      Collection directly from data subject
+    Purpose specification
+      The data subject must be informed of the the purpose of the data collection.
+      Retention and restriction of records
+    Further processing limitation
+    Information quality
+    Openness
+      A responsible party must maintain the documentation of all processing operations
+      under its responsibility as referred to in section 14 or 51 of the Promotion of Access to Information Act
+    Security Safeguards
+      Very important section. This section is arguably the hardest to comply with since it requires extensive restriction and modification of the requirements spec to comply with the act.
+    Data subject participation
+  Section 71 might be relevant depending on what the heat maps will be used for:
+    Subject to subsection (2), a data subject may not be subject to a decision which
+    results in legal consequences for him, her or it, or which affects him, her or it to a
+    substantial degree, which is based solely on the basis of the automated processing of
+    personal information intended to provide a profile of such person including his or her
+    performance at work, or his, her or its credit worthiness, reliability, _____location______, health,
+    personal preferences or conduct.
+  The crowdsourcing feature also might be overstepping on the POPI act namely:
+    12. Collection directly from data subject:
+    (1) Personal information must be collected directly from the data subject, except
+    as otherwise provided for in subsection (2)
