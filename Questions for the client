@@ -2,7 +2,7 @@ Will GPS be allowed as part of the available sensors, considering the loss of wi
 What platform will it be developed for?
 May we make use of google maps?
 Is data capture part of the project scope? That is the enumeration of building names, positions and routes.
-How will the software be installed on devices?
+How will the software be installed on devices? (playstore, )
 What visual information will the student as a user be able to see from the interface?
 Could you explain more precisely what crowd-sourcing features the software should have?
 Note that crowd-sourcing cannot include location data of a device since its signature is persistent.
@@ -10,10 +10,16 @@ Could you enumerate the different 'level of users or agents' that the system wil
 What agents should the system support?
 What users and agents will have access to the raw data?
 What users and agents will have access to the surveilance feature?
+How should users and agents be authenticated?
 
 Regarding targeted delivery of information:
   This has a huge security implication since devices will need to have a persistent identity attached to it for targeted delivery to function as expected.
   A breach will infringe on the privacy of all of its users. An adversary can build a complete profile of each user and its social networks.
+  How long will this infomation be stored?
+  Where will it be stored?
+  How should it be protected?
+
+According to POPI, a data subject may withdraw consent for its data to be used. This data must be removed within a reasonable time.
 
 Capturing user location data and "targeted delivery of information" has legal implications and requirements such as the POPI act. This requires that data be stored in a secure manner and reasonable measures must be taken to protect the data from unauthorised access.
 Main points of discussion in the POPI act are the following items:
@@ -35,7 +41,7 @@ Main points of discussion in the POPI act are the following items:
     Security Safeguards
       Very important section. This section is arguably the hardest to comply with since it requires extensive restriction and modification of the requirements spec to comply with the act.
     Data subject participation
-  Section 71 might be relevant depending on what the heat maps will be used for:
+  Section 71 might be relevant depending on what the heat maps and persistent identities will be used for:
     Subject to subsection (2), a data subject may not be subject to a decision which
     results in legal consequences for him, her or it, or which affects him, her or it to a
     substantial degree, which is based solely on the basis of the automated processing of
