@@ -1,6 +1,8 @@
 When is pedestrian traffic a real concern and how is this app supposed to address?
 Will GPS be allowed as part of the available sensors, considering the loss of wifi signal in many parts of campus?
+What assistance should the app provide for disabled people? How will the location of lifts and ramps be accurately indicated in the app without precise location data?
 What platform will it be developed for?
+In large will the app guide you to the right class?
 How will the software be installed on devices? (playstore, )
 May we make use of google maps?
 Is data capture part of the project scope? That is the enumeration of building names, positions and routes.(It turns into a functional requirement)
