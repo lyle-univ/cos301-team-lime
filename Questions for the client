@@ -1,9 +1,9 @@
-Is pedestrian traffic a real concern?
+When is pedestrian traffic a real concern and how is this app supposed to address?
 Will GPS be allowed as part of the available sensors, considering the loss of wifi signal in many parts of campus?
 What platform will it be developed for?
-May we make use of google maps?
-Is data capture part of the project scope? That is the enumeration of building names, positions and routes.
 How will the software be installed on devices? (playstore, )
+May we make use of google maps?
+Is data capture part of the project scope? That is the enumeration of building names, positions and routes.(It turns into a functional requirement)
 What visual information will the student as a user be able to see from the interface?
 Could you explain more precisely what crowd-sourcing features the software should have?
 Note that crowd-sourcing cannot include location data of a device since its signature is persistent.
@@ -13,6 +13,7 @@ What users and agents will have access to the raw data?
 What users and agents will have access to the surveillance feature?
 How should users and agents be authenticated?
 Where does the web interface fit in? What will it be used for?
+Should the app be silent(mobile data) when not connected to wifi?
 For mobile users, will the program run in the background all the time. How will this affect battery drain?
 
 Extension of scope:
