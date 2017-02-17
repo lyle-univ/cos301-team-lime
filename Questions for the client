@@ -16,6 +16,9 @@ Where does the web interface fit in? What will it be used for?
 Extension of scope:
   Perhaps security alerts can be pushed to users. Such as unrest due to protests or any other security issues. This will promote user retention and adoption after the fist part of the semester where people are still learning the layout of the campus.
 
+Has the client made sure that all system requirements are in line with restrictions by law?
+The below wall of text is only a small part of the sticky mess that is POPI compliance if user data is collected in the way suggested.
+
 Regarding targeted delivery of information:
   This has a huge security implication since devices will need to have a persistent identity attached to it for targeted delivery to function as expected.
   A breach will infringe on the privacy of all of its users. An adversary can build a complete profile of each user and its social networks.
@@ -23,11 +26,42 @@ Regarding targeted delivery of information:
   Where will it be stored?
   How should it be protected?
 
-Has the client made sure that all system requirements are in line with restrictions by law?
-
 According to POPI section 11.2.b, a data subject may withdraw consent for its data to be used. This data must be removed within a reasonable time. How will we facilitate this requirement?
 
 How should we convey to the user the purpose and the type of infomation that will be collected?
+
+How will the process for access to data subject information be implemented?
+  Condition 8 Data subject participation
+  Access to personal information
+  23.
+  (1) A data subject, having provided adequate proof of identity, has the right to—
+  (a)request a responsible party to confirm, free of charge, whether or not the
+  responsible party holds personal information about the data subject; and
+  (b)request from a responsible party the record or a description of the personal
+  information about the data subject held by the responsible party, including
+  information about the identity of all third parties, or categories of third parties,
+  who have, or have had, access to the information—
+  (i)  within a reasonable time;
+  (ii)  at a prescribed fee, if any;
+  (iii)  in a reasonable manner and format; and
+  (iv)  in a form that is generally understandable.
+
+How should we implement the folling complaince requirement:
+  24.
+  (1) A data subject may, in the prescribed manner, request a responsible party to—
+  (a)correct or delete personal information about the data subject in its possession
+  or under its control that is inaccurate, irrelevant, excessive, out of date,
+  incomplete, misleading or obtained unlawfully; or
+  (b)destroy or delete a record of personal information about the data subject that
+  the responsible party is no longer authorised to retain in terms of section 14
+
+Section 14. requires that:
+  (1) Subject to subsections (2) and (3), records of personal information must not be
+  retained any longer than is necessary for achieving the purpose for which the
+  information was collected or subsequently processed
+
+  This means that we should have an expiry date on the data once a student completes his/her degree or guest leaves the campus.
+
 
 Capturing user location data and "targeted delivery of information" has legal implications and requirements such as the POPI act. This requires that data be stored in a secure manner and reasonable measures must be taken to protect the data from unauthorised access.
 Main points of discussion in the POPI act are the following items:
