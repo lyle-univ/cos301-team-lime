@@ -17,6 +17,7 @@ How should users and agents be authenticated?
 Where does the web interface fit in? What will it be used for?
 Should the app be silent(mobile data) when not connected to wifi?
 For mobile users, will the program run in the background all the time. How will this affect battery drain?
+What will handover encompass?
 
 Extension of scope:
   Perhaps security alerts can be pushed to users. Such as unrest due to protests or any other security issues. This will promote user retention and adoption after the fist part of the semester where people are still learning the layout of the campus.
