@@ -13,6 +13,9 @@ What users and agents will have access to the surveilance feature?
 How should users and agents be authenticated?
 Where does the web interface fit in? What will it be used for?
 
+Extension of scope:
+  Perhaps security alerts can be pushed to users. Such as unrest due to protests or any other security issues. This will promote user retention and adoption after the fist part of the semester where people are still learning the layout of the campus.
+
 Regarding targeted delivery of information:
   This has a huge security implication since devices will need to have a persistent identity attached to it for targeted delivery to function as expected.
   A breach will infringe on the privacy of all of its users. An adversary can build a complete profile of each user and its social networks.
