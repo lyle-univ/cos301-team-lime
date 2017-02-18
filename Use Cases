@@ -1,35 +1,42 @@
 Different Use Cases
 
-•	Navigation Subsystem
-  o	Using current location
-  o	Using starting point
-  o	Enter end point
-  o	Directions to destination
-  o	Find fastest path
-  o	Find lecture hall
-  o	Search for locations
-  o	Saving locations
-  o	Determine pedestrian traffic
+Navigation Subsystem
+    These following things are not use cases or functional requirements:
+    ----------------------------
+	Using current location
+	Using starting point
+	Enter end point
+	Determine pedestrian traffic
+    ----------------------------
 
-•	Login Subsystem
-  o	Student Login
-  o	Lecturer Login
-  o	Delete account
-  o	Users interests
+    These can be functional requirements but some of them are subcomponents of the same requirement:
+    ----------------------------
+	Directions to destination
+	Find fastest path
+	Find lecture hall
+	Search for locations
+	Saving locations
+    ----------------------------
 
-•	Rewards Subsystem
-  o	Determine steps walked
-  o	Setting goals
-  o	Compare step count against other users
-  o	Leaderboard 
+Login Subsystem
+	Student Login
+	Lecturer Login
+	Delete account
+	Users interests
 
-•	Guest Subsystem
-  o	Point of interests
+Rewards Subsystem
+	Determine steps walked
+	Setting goals
+	Compare step count against other users
+	Leaderboard 
+
+Guest Subsystem
+	Point of interests
 
 
-•	Admin Subsystem
-  o	System usage statistics
+Admin Subsystem
+	System usage statistics
 
-•	Point of Interest/ Events Subsystem
-  o	Determine close points of interest
-  o	Determine events nearby
+Point of Interest/ Events Subsystem
+	Determine close points of interest
+    Determine events nearby
