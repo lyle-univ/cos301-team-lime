@@ -1,0 +1,35 @@
+Different Use Cases
+
+•	Navigation Subsystem
+  o	Using current location
+  o	Using starting point
+  o	Enter end point
+  o	Directions to destination
+  o	Find fastest path
+  o	Find lecture hall
+  o	Search for locations
+  o	Saving locations
+  o	Determine pedestrian traffic
+
+•	Login Subsystem
+  o	Student Login
+  o	Lecturer Login
+  o	Delete account
+  o	Users interests
+
+•	Rewards Subsystem
+  o	Determine steps walked
+  o	Setting goals
+  o	Compare step count against other users
+  o	Leaderboard 
+
+•	Guest Subsystem
+  o	Point of interests
+
+
+•	Admin Subsystem
+  o	System usage statistics
+
+•	Point of Interest/ Events Subsystem
+  o	Determine close points of interest
+  o	Determine events nearby
