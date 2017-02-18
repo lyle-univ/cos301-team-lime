@@ -1,0 +1,11 @@
+\newcounter{FuncReqSerial}
+
+\newcommand{\FuncReq} [4]{
+    \refstepcounter{FuncReqSerial}
+
+    \textbf{Serial}:F\theFuncReqSerial\\
+    \textbf{Abstract}: #1\\
+    \textbf{Description}: #2\\
+    \textbf{Pre-condition}: #3\\
+    \textbf{Post-condition}: #4\\
+}
