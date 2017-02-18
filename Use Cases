@@ -1,22 +1,24 @@
 Different Use Cases
 
 Navigation Subsystem
-    These following things are not use cases or functional requirements:
-    ----------------------------
-	Using current location
-	Using starting point
-	Enter end point
-	Determine pedestrian traffic
-    ----------------------------
+    These following things are not use cases or functional requirements, the are parts of some functional requirements:
+	    Using current location
+	    Using starting point
+	    Enter end point
 
     These can be functional requirements but some of them are subcomponents of the same requirement:
-    ----------------------------
-	Directions to destination
-	Find fastest path
-	Find lecture hall
-	Search for locations
-	Saving locations
-    ----------------------------
+	    Directions to destination
+	    Find fastest path
+	    Find lecture hall
+	    Search for locations
+	    Saving locations
+	    Determine pedestrian traffic
+
+    Functional requirements for the system would be stated in the following manner:
+        1.User shall input two points on the map and the system will return the fastest route.
+        2.User shall request the fastest path from current location, determined by sensors, to destination.
+            2.1.Destinations may be lecture halls, buildings, saved locations or arbitrary selected locations on the map.
+        
 
 Login Subsystem
 	Student Login
