@@ -257,9 +257,9 @@ layer=2</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>950</x>
+      <x>980</x>
       <y>320</y>
-      <w>320</w>
+      <w>290</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>WebUI
@@ -269,9 +269,9 @@ layer=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>960</x>
+      <x>990</x>
       <y>390</y>
-      <w>140</w>
+      <w>130</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>Administration
@@ -281,9 +281,9 @@ layer=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1120</x>
+      <x>1130</x>
       <y>350</y>
-      <w>140</w>
+      <w>130</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>Data capture
@@ -293,9 +293,9 @@ layer=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>960</x>
+      <x>990</x>
       <y>350</y>
-      <w>140</w>
+      <w>130</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>Surveillance
@@ -317,7 +317,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1190</x>
+      <x>1250</x>
       <y>420</y>
       <w>30</w>
       <h>50</h>
@@ -325,5 +325,54 @@ layer=2</panel_attributes>
     <panel_attributes>lt=&lt;-
 layer=2</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>650</x>
+      <y>320</y>
+      <w>320</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Agents
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>420</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>950</x>
+      <y>420</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>350</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Generate
+Metadata
+layer=1</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
