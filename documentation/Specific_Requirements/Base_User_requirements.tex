@@ -1,6 +1,29 @@
 \FuncReq
-{Some abstract}
-{the longer description}
-{Any preconditions}
-{Any postconditions}
+{The base user requirements outlines the base/foundation functionality of the system. The inner workings of the system and it's subsystems will be expanded later in the document. Your typical base user will be able to do the following:
+\begin{enumerate}
+\item View the map of campus.
+\item Search for a location/venue on campus to be displayed on the map.
+\item Set a certain location on the map or let NavUP determine the user's location.
+\item Set a begin and end location for the system to determine the fastest path/route.
+\item View various points of interest.
+\item View any current events or activities happening on campus.
+\end{enumerate}
+}
+{A more in depth description of the Base User Requirements:
+\begin{enumerate}
+\item The user will be able to view the map through the use of the UI. The map itself will be saved on the system enabling access to it when connected or disconnected. It will contain all locations and venues located on campus itself.
+\item The user needs to be able to search for a location/venue. This will involve a search bar (possible auto-complete functionality) where the user will enter the name of the location/venue. The system will then search through it's database and indicate on the map when the location/venue has been found or display an appropriate prompt when the location/venue is not found.
+\item The user will be able to set their location in one of a few ways:
+\begin{enumerate}
+\item GPS location to determine the location of the user on the map.
+\item A user set location on the map. This can be done online or offline by clicking on a point on the map.
+\item Wifi signal strength. The system will use the various wifi-hotspots to roughly determine the user's location.
+\end{enumerate}
+\item The user will need to be able to set a begin and end location. This means their location(GPS/Wifi signal strength) or a user set location to start navigating from. They will then choose an end location, the system will then navigate the shortest path based on user preference. This path will be displayed on the map for the user to follow.
+\item When selecting a certain building or location the system should display information where applicable for the user to review. This will be static information saved on the database.
+\item The system should also display various events and activities happening on campus. This needs to be easily accessible by the user through the UI. This information will have to be updated daily by the agents of the system.
+\end{enumerate}
+}
+{One of the pre-conditions for the base user is to be connected to the internet/campus wifi in some way. This is required for the system to determine the user's location by using wfi signal strength or GPS, the rest of the base functionality is available when disconnected. The other pre-condition is that the user has access to a smartphone(Android/iOS for the time being, subject to change.) }
+{A post-condition for the user is to keep the UI open when navigating to a location.}
 
