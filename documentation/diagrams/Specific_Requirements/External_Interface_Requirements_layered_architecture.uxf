@@ -339,7 +339,8 @@ layer=2</panel_attributes>
       <h>110</h>
     </coordinates>
     <panel_attributes>Agents
-layer=1</panel_attributes>
+layer=1
+bg=black</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -376,7 +377,8 @@ layer=2</panel_attributes>
     </coordinates>
     <panel_attributes>Generate
 Metadata
-layer=2</panel_attributes>
+layer=2
+bg=none</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
