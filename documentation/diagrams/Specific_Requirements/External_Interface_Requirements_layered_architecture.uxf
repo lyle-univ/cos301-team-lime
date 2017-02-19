@@ -6,8 +6,8 @@
     <coordinates>
       <x>270</x>
       <y>110</y>
-      <w>1070</w>
-      <h>730</h>
+      <w>1050</w>
+      <h>780</h>
     </coordinates>
     <panel_attributes>Layered Architecture</panel_attributes>
     <additional_attributes/>
@@ -17,18 +17,18 @@
     <coordinates>
       <x>320</x>
       <y>750</y>
-      <w>960</w>
+      <w>950</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>Sensors</panel_attributes>
+    <panel_attributes>Mobile device sensors</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>320</x>
-      <y>670</y>
-      <w>960</w>
+      <y>700</y>
+      <w>950</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>Position by sensor integration</panel_attributes>
@@ -37,13 +37,13 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>690</y>
+      <x>790</x>
+      <y>720</y>
       <w>30</w>
-      <h>80</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -100,5 +100,126 @@
     </coordinates>
     <panel_attributes>Wifi</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>450</y>
+      <w>950</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Repository</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>640</y>
+      <w>930</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Data aggregate and sanitiser</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>790</x>
+      <y>670</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>590</y>
+      <w>930</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Database</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>790</x>
+      <y>610</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>490</y>
+      <w>930</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Authentication</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>540</y>
+      <w>930</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Privilege Manager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>920</x>
+      <y>560</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>560</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>510</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>920</x>
+      <y>510</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
 </diagram>
