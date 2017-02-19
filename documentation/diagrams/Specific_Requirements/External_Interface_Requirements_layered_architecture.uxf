@@ -5,9 +5,9 @@
     <id>UMLClass</id>
     <coordinates>
       <x>310</x>
-      <y>110</y>
+      <y>230</y>
       <w>970</w>
-      <h>730</h>
+      <h>610</h>
     </coordinates>
     <panel_attributes>Layered Architecture
 bg=none</panel_attributes>
@@ -396,7 +396,8 @@ layer=2</panel_attributes>
       <h>180</h>
     </coordinates>
     <panel_attributes>Mobile(Android &amp; IOS)
-layer=1</panel_attributes>
+layer=1
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -420,7 +421,8 @@ layer=2</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>Guest
-layer=2</panel_attributes>
+layer=2
+bg=none</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -432,7 +434,8 @@ layer=2</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>Student
-layer=2</panel_attributes>
+layer=2
+bg=none</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -444,7 +447,8 @@ layer=2</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>Lecturer
-layer=2</panel_attributes>
+layer=2
+bg=none</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -456,7 +460,8 @@ layer=2</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>Disabled
-layer=2</panel_attributes>
+layer=2
+bg=none</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -468,7 +473,8 @@ layer=2</panel_attributes>
       <h>100</h>
     </coordinates>
     <panel_attributes>Users
-layer=2</panel_attributes>
+layer=2
+bg=magenta</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -480,7 +486,8 @@ layer=2</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>Static data cache
-layer=2</panel_attributes>
+layer=2
+bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
