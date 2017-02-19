@@ -372,7 +372,115 @@ layer=2</panel_attributes>
     </coordinates>
     <panel_attributes>Generate
 Metadata
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>420</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>250</y>
+      <w>320</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Mobile(Android &amp; IOS)
 layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>420</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>300</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Guest
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>300</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Student
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>340</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Lecturer
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>340</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Disabled
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>280</y>
+      <w>300</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Users
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>390</y>
+      <w>300</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Static data cache
+layer=2</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
