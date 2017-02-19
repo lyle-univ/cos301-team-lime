@@ -4,12 +4,13 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>270</x>
+      <x>310</x>
       <y>110</y>
-      <w>1050</w>
-      <h>780</h>
+      <w>970</w>
+      <h>730</h>
     </coordinates>
-    <panel_attributes>Layered Architecture</panel_attributes>
+    <panel_attributes>Layered Architecture
+bg=none</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -20,7 +21,9 @@
       <w>950</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>Mobile device sensors</panel_attributes>
+    <panel_attributes>Mobile device sensors
+layer=1
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -31,7 +34,9 @@
       <w>950</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Position by sensor integration</panel_attributes>
+    <panel_attributes>Position by sensor integration
+layer=1
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -42,7 +47,8 @@
       <w>30</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;-
+layer=2</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
@@ -53,7 +59,9 @@
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>GSM</panel_attributes>
+    <panel_attributes>GSM
+layer=2
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -64,7 +72,9 @@
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>GPS</panel_attributes>
+    <panel_attributes>GPS
+layer=2
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -76,7 +86,9 @@
       <h>30</h>
     </coordinates>
     <panel_attributes>Accelerometer
-</panel_attributes>
+
+layer=2
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -87,7 +99,9 @@
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Gyroscope</panel_attributes>
+    <panel_attributes>Gyroscope
+layer=2
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -98,7 +112,9 @@
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Wifi</panel_attributes>
+    <panel_attributes>Wifi
+layer=2
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -109,7 +125,9 @@
       <w>950</w>
       <h>230</h>
     </coordinates>
-    <panel_attributes>Repository</panel_attributes>
+    <panel_attributes>Repository
+layer=1
+bg=cyan</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -120,7 +138,9 @@
       <w>930</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Data aggregate and sanitiser</panel_attributes>
+    <panel_attributes>Data aggregate and sanitiser
+layer=2
+bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -131,7 +151,8 @@
       <w>30</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;-
+layer=2</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
@@ -142,7 +163,9 @@
       <w>930</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Database</panel_attributes>
+    <panel_attributes>Database
+layer=2
+bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -153,7 +176,8 @@
       <w>30</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;-
+layer=2</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
@@ -164,7 +188,9 @@
       <w>930</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Authentication</panel_attributes>
+    <panel_attributes>Authentication
+layer=2
+bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -175,7 +201,9 @@
       <w>930</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Privilege Manager</panel_attributes>
+    <panel_attributes>Privilege Manager
+layer=2
+bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -186,7 +214,8 @@
       <w>30</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;-
+layer=2</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
@@ -197,7 +226,8 @@
       <w>30</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;</panel_attributes>
+    <panel_attributes>lt=-&gt;
+layer=2</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
@@ -208,7 +238,8 @@
       <w>30</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;</panel_attributes>
+    <panel_attributes>lt=-&gt;
+layer=2</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
@@ -219,7 +250,8 @@
       <w>30</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;-
+layer=2</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
 </diagram>
