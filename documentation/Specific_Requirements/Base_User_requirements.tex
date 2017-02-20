@@ -14,7 +14,19 @@ The base user requirements outlines the base/foundation functionality of the sys
 
 \FuncReq
 {Find the fastest route between two points}%This functional requirement will include finding the start point by gps or by manual input from the user
-{TODO}
+{
+  \begin{enumerate}
+    \item The user will be able to set the start point in the following ways:
+      \begin{enumerate}
+        \item By clicking on the map to indicate the start point or typing the name of the location into the search bar as described in another functional requirement. This should work for both online and offline.
+        \item The start point is determined by integrating information from various sensors such as wifi and cellphone tower triangulation, gps, accelerometer and gyroscope. The functionality may work for both online and offline if possible.
+      \end{enumerate}
+
+    \item The user will be able to set the end point by clicking on the map to indicate the start point or typing the name of the location into the search bar as described in another functional requirement. This should work for both online and offline.
+    \item After setting the start and endpoint the Mobile device must calculate the fastest path between these two points and provide the directions to the user. If the phone is offline it must make use of cached data to make an informed choice, if it is online, it must consult the remote repository for the most up to date congestion data.
+  \end{enumerate}
+  \mbox{}%enumerations cannot be ended with a newline
+}
 {TODO}
 {TODO}
 
