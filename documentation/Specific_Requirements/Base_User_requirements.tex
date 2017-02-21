@@ -24,6 +24,18 @@ The base user requirements outlines the base/foundation functionality of the sys
 {The user needs to be able to search for a location/venue. This will involve a search bar (possible auto-complete functionality) where the user will enter the name of the location/venue. The mobile device will then search through it's database and indicate on the map when the location/venue has been found or display an appropriate prompt when the location/venue is not found.}
 {TODO}
 {TODO}
+    \\
+    \textbf{Actor system interaction model: Search for a location/venue on campus to be displayed on the map }\\
+    \begin{tabular}{ | l | p{5cm} |}
+    \hline
+    Actor: Mobile User & System:NavUp \\ \hline
+    0. The user clicks on the magnification button & 1. The mobile app displays a menu to type in the location and venue.\\ \hline
+    2. The user types in the location or venue & 3. Using information from cache and the remote repository, the app tries to perform autocomplete based on what the user is typing.\\ \hline
+    4. The user chooses the autocomplete suggestion or types the search term out. & 5. The app generate a list of candidate locations/venues that match its internal cache or the remote repository.\\ \hline
+    \end{tabular}
+\\
+\bigskip
+
 
 \FuncReq
 {Find the fastest route between two points}%This functional requirement will include finding the start point by gps or by manual input from the user
