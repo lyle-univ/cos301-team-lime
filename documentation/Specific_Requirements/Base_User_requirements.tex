@@ -1,10 +1,23 @@
 The base user requirements outlines the base/foundation functionality of the system. The inner workings of the system and it's subsystems will be expanded later in the document. Your typical base user will be able to do the following:
+\\
+\bigskip
 
 \FuncReq
 {View the map of campus}
 {The user will be able to view the map through the use of the UI. The map itself will be saved on the system enabling access to it when connected or disconnected. It will contain all locations and venues located on campus itself.}
 {TODO}
 {TODO}
+    \\
+    \textbf{Actor system interaction model: View the map of campus }\\
+    \begin{tabular}{ | l | p{5cm} |}
+    \hline
+    Actor: Mobile User & System:NavUp \\ \hline
+     & 0. The mobile app displays the main menu with the map and map info occupying most of the screen at the default position.\\ \hline
+    1. The user scrolls around the map & 2. The app updates the map the map and map info that's in view, pulling information from the remote repository if needed and if possible.\\ \hline
+    
+    \end{tabular}
+\\
+\bigskip
 
 \FuncReq
 {Search for a location/venue on campus to be displayed on the map}
