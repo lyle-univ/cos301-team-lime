@@ -54,6 +54,16 @@ The base user requirements outlines the base/foundation functionality of the sys
 }
 {TODO}
 {TODO}
+    \\
+    \textbf{Actor system interaction model:Find the fastest route between two points }\\
+    \begin{tabular}{ | p{6cm} | p{6cm} |}
+    \hline
+    Actor: Mobile User & System:NavUp \\ \hline
+    0. The user clicks on the navigation button & 1. The mobile app displays a menu to type in the starting point and end point.\\ \hline
+    2. The user selects the starting point by making a mark on the map or setting it as current location of the mobile device or searching for a place on the map & 3. If the mobile device is online, the remote server sends up to date congestion data to the mobile device. If the mobile device is offline, it uses cached data. In both cases the mobile phone calculate the fastest path using the congestion data, then displays the fastest path to the user.\\ \hline
+    \end{tabular}
+\\
+\bigskip
 
 \FuncReq
 {View various points of interest}
