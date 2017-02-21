@@ -2,3 +2,17 @@
 See the projects tab for the current progress of the project
 
 Checkout the wip(work in progress) branch for the most recent work
+
+Workflow conventions:
+
+1. Pull before you push
+
+2. In the projects tab, move work you want to work on from The TODO column into In Progress column and assign yourself to the issue.
+
+3. When complete, move your work from In Progress to the Review column to be reviewed and given feedback by a peer. After review, the peer will move the work to done and close the issue.
+
+3. Push bleeding edge work into wip
+
+4. Merge a finished feature into feature branch
+
+5. Merge each document version into master and label the version
