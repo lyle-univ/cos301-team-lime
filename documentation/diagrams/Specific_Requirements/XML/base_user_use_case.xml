@@ -1,0 +1,29 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>1430</x><y>110</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Package::FatClass
+{Some Properties}
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>590</x><y>220</y><w>360</w><h>450</h></coordinates><panel_attributes>NAVIGATION - BASE USER
+halign=center</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>660</x><y>250</y><w>230</w><h>50</h></coordinates><panel_attributes>
+View a map of the campus
+valign=top</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>660</x><y>310</y><w>230</w><h>50</h></coordinates><panel_attributes>
+Search for a location on campus
+valign=top</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>660</x><y>370</y><w>230</w><h>50</h></coordinates><panel_attributes>Find the fastest route between 
+two points
+valign=top</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>660</x><y>430</y><w>230</w><h>50</h></coordinates><panel_attributes>
+View various points of interest
+valign=top</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>660</x><y>490</y><w>230</w><h>50</h></coordinates><panel_attributes>View any current events/activites 
+on campus
+valign=top</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>660</x><y>550</y><w>230</w><h>50</h></coordinates><panel_attributes>View any congestion/ high traffic 
+in areas
+valign=top</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>660</x><y>610</y><w>230</w><h>50</h></coordinates><panel_attributes>Notifications and alerts should be 
+pushed to users
+valign=top</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>390</x><y>370</y><w>80</w><h>120</h></coordinates><panel_attributes>Application 
+User</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>270</y><w>240</w><h>160</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;140;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>330</y><w>240</w><h>100</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;80;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>380</y><w>240</w><h>50</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;30;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>400</y><w>240</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;220;50</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>400</y><w>240</w><h>130</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;220;110</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>400</y><w>240</w><h>190</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;220;170</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>400</y><w>240</w><h>250</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;220;230</additional_attributes></element></diagram>
