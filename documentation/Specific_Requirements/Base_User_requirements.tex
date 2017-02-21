@@ -1,0 +1,43 @@
+The base user requirements outlines the base/foundation functionality of the system. The inner workings of the system and it's subsystems will be expanded later in the document. Your typical base user will be able to do the following:
+
+\FuncReq
+{View the map of campus}
+{The user will be able to view the map through the use of the UI. The map itself will be saved on the system enabling access to it when connected or disconnected. It will contain all locations and venues located on campus itself.}
+{TODO}
+{TODO}
+
+\FuncReq
+{Search for a location/venue on campus to be displayed on the map}
+{The user needs to be able to search for a location/venue. This will involve a search bar (possible auto-complete functionality) where the user will enter the name of the location/venue. The mobile device will then search through it's database and indicate on the map when the location/venue has been found or display an appropriate prompt when the location/venue is not found.}
+{TODO}
+{TODO}
+
+\FuncReq
+{Find the fastest route between two points}%This functional requirement will include finding the start point by gps or by manual input from the user
+{
+  \begin{enumerate}
+    \item The user will be able to set the start point in the following ways:
+      \begin{enumerate}
+        \item By clicking on the map to indicate the start point or typing the name of the location into the search bar as described in another functional requirement. This should work for both online and offline.
+        \item The start point is determined by integrating information from various sensors such as wifi and cellphone tower triangulation, gps, accelerometer and gyroscope. The functionality may work for both online and offline if possible.
+      \end{enumerate}
+
+    \item The user will be able to set the end point by clicking on the map to indicate the start point or typing the name of the location into the search bar as described in another functional requirement. This should work for both online and offline.
+    \item After setting the start and endpoint the Mobile device must calculate the fastest path between these two points and provide the directions to the user. If the phone is offline it must make use of cached data to make an informed choice, if it is online, it must consult the remote repository for the most up to date congestion data.
+  \end{enumerate}
+  \mbox{}%enumerations cannot be ended with a newline
+}
+{TODO}
+{TODO}
+
+\FuncReq
+{View various points of interest}
+{When selecting a certain building or location the mobile device should display information where applicable for the user to review. When offline the mobile device will use whatever it has in cache, if it is online it may consult the remote repository for the most up to date information.}
+{TODO}
+{TODO}
+
+\FuncReq
+{View any current events or activities happening on campus}
+{The mobile device should display various events and activities happening on campus on the current day as well as upcoming events and activities. When offline it should attempt to display activities and events that have not expired that resides in cache. When online, it should retrieve the most up to date list of events and activities from the remote repository.}
+{TODO}
+{TODO}
