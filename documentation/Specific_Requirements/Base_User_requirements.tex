@@ -14,7 +14,7 @@ The base user requirements outlines the base/foundation functionality of the sys
     \textbf{Actor system interaction model: View the map of campus }\\
     \begin{tabular}{ | p{6cm} | p{6cm} |}
     \hline
-    Actor: Mobile User & System:NavUp \\ \hline
+    Actor: Mobile User & System: NavUp \\ \hline
      & 0. The mobile app displays the main menu with the map and map info occupying most of the screen at the default position.\\ \hline
     1. The user scrolls around the map & 2. The app updates the map the map and map info that's in view, pulling information from the remote repository if needed and if possible.\\ \hline
     
@@ -31,7 +31,7 @@ The base user requirements outlines the base/foundation functionality of the sys
     \textbf{Actor system interaction model: Search for a location/venue on campus to be displayed on the map }\\
     \begin{tabular}{ | p{6cm} | p{6cm} |}
     \hline
-    Actor: Mobile User & System:NavUp \\ \hline
+    Actor: Mobile User & System: NavUp \\ \hline
     0. The user clicks on the magnification button & 1. The mobile app displays a menu to type in the location and venue.\\ \hline
     2. The user types in the location or venue & 3. Using information from cache and the remote repository, the app tries to perform autocomplete based on what the user is typing.\\ \hline
     4. The user chooses the autocomplete suggestion or types the search term out. & 5. The app generate a list of candidate locations/venues that match its internal cache or the remote repository.\\ \hline
@@ -61,7 +61,7 @@ The base user requirements outlines the base/foundation functionality of the sys
     \textbf{Actor system interaction model:Find the fastest route between two points }\\
     \begin{tabular}{ | p{6cm} | p{6cm} |}
     \hline
-    Actor: Mobile User & System:NavUp \\ \hline
+    Actor: Mobile User & System: NavUp \\ \hline
     0. The user clicks on the navigation button & 1. The mobile app displays a menu to type in the starting point and end point.\\ \hline
     2. The user selects the starting point by making a mark on the map or setting it as current location of the mobile device or searching for a place on the map & 3. If the mobile device is online, the remote server sends up to date congestion data to the mobile device. If the mobile device is offline, it uses cached data. In both cases the mobile phone calculate the fastest path using the congestion data, then displays the fastest path to the user.\\ \hline
     \end{tabular}
