@@ -83,12 +83,44 @@ The base user requirements outlines the base/foundation functionality of the sys
     \end{tabular}
 \\
 \bigskip
+	\\
+    \textbf{Actor system interaction model: View Various Points of Interest }\\
+    \begin{tabular}{ | p{6cm} | p{6cm} |}
+    \hline
+    Actor: Mobile User & System: NavUp \\ \hline
+    & 0. The mobile app displays a map of the campus.\\ \hline
+    1. The user selects a location on the map & 2. The mobile application will display various points of interest in the surrounding areas.\\ \hline
+    \end{tabular}
+\\
+\bigskip
 
 \FuncReq
 {View any current events or activities happening on campus}
 {The mobile device should display various events and activities happening on campus on the current day as well as upcoming events and activities. When offline it should attempt to display activities and events that have not expired that resides in cache. When online, it should retrieve the most up to date list of events and activities from the remote repository.}
 {TODO}
 {TODO}
+	\\
+    \textbf{Actor system interaction model: View any current events or activities happening on campus }\\
+    \begin{tabular}{ | p{6cm} | p{6cm} |}
+    \hline
+    Actor: Mobile User & System: NavUp \\ \hline
+    & 0. The mobile app displays a map of the campus.\\ \hline
+    1. The user selects a destination & 2. The mobile application will display various activities at venues along the way to the users destination.
+    \\ \hline
+    \end{tabular}
+\\
+\bigskip
+	\\
+    \textbf{Actor system interaction model: View any current events or activities happening on campus }\\
+    \begin{tabular}{ | p{6cm} | p{6cm} |}
+    \hline
+    Actor: Mobile User & System: NavUp \\ \hline
+    & 0. The mobile app displays a map of the campus.\\ \hline
+    1. The user selects a location on the map & 2. The mobile application will display various activities at venues in and around the location selected.\\ \hline
+    \end{tabular}
+\\
+\bigskip
+
 
 \FuncReq
 {Users should be able to view any congestion/ high traffic in areas}
