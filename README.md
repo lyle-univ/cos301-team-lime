@@ -5,7 +5,7 @@ Checkout the wip(work in progress) branch for the most recent work
 
 Workflow conventions:
 
-1. Pull before you push
+1. Pull and compile before you push
 
 2. In the projects tab, move work you want to work on from the TODO column into the In Progress column and assign yourself to the issue.
 
