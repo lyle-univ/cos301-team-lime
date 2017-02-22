@@ -17,4 +17,4 @@ Workflow conventions:
 
 5. Merge each document version into master and label the version
 
-6. Feature freeze will commence on Feb23 6PM. The bulk of work should be done before then, only fixes to typesetting, formatting and other touchups will be done after this time. Complete freeze will commence 2 hours before the deadline, this means that there should be no open issues after this time. This is to prevent last minute changes having unintended consequences.
+6. Feature freeze will commence on Feb23 6PM. The bulk of work should be done before then, only fixes to typesetting, formatting and other touchups will be done after this time. Complete freeze will commence 2 hours before the deadline, this means that all issues should be resolved and closed before then. This is to prevent last minute changes having unintended consequences.
