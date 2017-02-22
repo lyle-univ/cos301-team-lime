@@ -1,47 +1,54 @@
 \begin{Requirements}
 \section{Feature : Administrator}
 Feature:  Administrator 
-\subsection{Administrator WebUI Functional Requirement}
+\subsection{ WebUI Functional Requirement}
 
-\subsubsection{FR-1  : Administrator log-in}
-	  	-Administrator enters credentials so system can validate them.
+\FuncReq{Administrator log-in}
+	  	{-Administrator enters credentials so system can validate them.
 	 	-System grants access if administrator user-name and password is correct.
-	 	-System denies if incorrect.
+	 	-System denies if incorrect.}
+	 	{TODO}
+        {TODO}
 	  
-\subsubsection{FR-2   : Administrator recover-password}
-		-Administrator has to select the recover-password option.
-		-System send confirmation email to user-name email address.
-		-Administrator has to enter password sent to email.
-	  	-System allows administrator to set a new password if confirmation email password was correct else reject and back to 			 log-in page.
-\subsubsection{FR-3   :	Administrator granted access to system.}
-  	
-\subsubsection{FR-3.1 :	Administrator edits, update and delete records}
-		-Administrator has to select edit , update or delete records option.
-		-Administrator request user information from database.
-		-System grants request and administrator can manipulate user's meta data.
-		-Users information should be updated in database when administrator is done editing.
+\FuncReq{Administrator recover-password}
 		
-\subsubsection{FR-3.2 :	Administrator block or unblock user.}
-		-Administrator has to select block or unblock option.
-		-Administrator requests users information from database.
+		{-System send confirmation email to user-name email address.
+		-Administrator has to enter password sent to email.
+	  	-System allows administrator to set a new password if confirmation email password was correct else reject and back to 			 log-in page.}
+	  	{TODO}
+        {TODO}
+\subsubsection{granted access to system.}
+ 
+\FuncReq{Administrator edit, update and delete records}
+		{-Administrator request user information from database.
+		-System grants request and administrator can manipulate user's meta data.
+		-User's information should be updated in database when administrator is done editing.}
+		{TODO}
+        {TODO}
+\FuncReq{Administrator block or unblock user.}
+       
+		{-Administrator requests users information from database.
 		-System grants access to information.
 		-Administrator blocks or unblocks the user.
-		-Information has to be updated in the database.
+		-Information has to be updated in the database.}
+		{TODO}
+        {TODO}
 		
-\subsubsection{FR-3.3 :	Administrator adding new data capture-re or surveillance editor access to system.}
-		-Administrator has to select the add new data capture-re or surveillance editor option.
-		-Administrator must enter list of users permitted to access data-capturing or surveillance.
-		-Administrator must save the information on database and ensure the members on the list information is on the database 			 so system can grant them access.
-		-System grants access to all the names on the list.
 		
-\subsubsection{FR-3.4 :	 Administrator deletes a data capture-re or surveillance.}
-		-Administrator has to select the delete data capture-re or surveillance editor option.
-		-System fetches current list from database and displays it to administrator.
+\FuncReq{Administrator adding new admin user access to system.}
+		{-Administrator must enter list of users permitted to be administrators.
+		-Administrator must save the information on database and ensure the information     		     			 		  is on the database so system can grant them access.
+		-System grants access to all the names on the list.}
+		{TODO}
+        {TODO}
+		
+\FuncReq{Administrator deletes a administrator's account.}
+		{-System fetches current list from database and displays it to administrator.
 		-Administrator selects and deletes name from list.
-		-Administrator has to also delete the information that is linked to that user name removed from the list.
-\subsubsection{FR-3.5 :	Administrator view system performance}
-		-Administrator should select the view system perfomance option.
-\subsubsection{FR-3.6 : Administrator view data capture-re and surveillance editor changes.}
-		-Administrator should select the view data capture-re and surveillance editor changes option.
-		-Administrator should be able to view the data capture-re or surveillance editor of the website changes made. 
-	  
+		-Administrator has to also delete the information that is linked to that user 					 			 name removed from the list.}
+		{TODO}
+        {TODO}
+\FuncReq{Administrator view system performance}
+        {Administrator views the performance of the system and is able perform system analyses.}
+        {TODO}
+        {TODO}
