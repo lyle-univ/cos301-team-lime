@@ -109,7 +109,6 @@ The base user requirements outlines the base/foundation functionality of the sys
     \\ \hline
     \end{tabular}
 \\
-\bigskip
 	\\
     \textbf{Actor system interaction model: View any current events or activities happening on campus }\\
     \begin{tabular}{ | p{6cm} | p{6cm} |}
@@ -127,6 +126,34 @@ The base user requirements outlines the base/foundation functionality of the sys
 {When using the application in a map view of the campus, users should be able to view the amount of pedestian traffic in surrounding areas. In addition to this any congestion in areas will also be indicated, this could be in the form of pedestrians or any other kind.}
 {TODO}
 {TODO}
+\bigskip
+	\\
+    \textbf{Actor system interaction model: Users should be able to view any congestion/ high traffic in areas}\\
+    \begin{tabular}{ | p{6cm} | p{6cm} |}
+    \hline
+    Actor: Mobile User & System: NavUp \\ \hline
+    & 0. The mobile app displays a map of the campus.\\ \hline
+    1. The user selects to view an indication of the pedestrian traffic and congestion on campus & 2. The mobile application will display various points at which there is high congestion and traffic.\\ \hline
+    \end{tabular}
+\\
+\bigskip
+
+\FuncReq
+{View the map of campus}
+{The user will be able to view the map through the use of the UI. The map itself will be saved on the system enabling access to it when connected or disconnected. It will contain all locations and venues located on campus itself.}
+{TODO}
+{TODO}
+    \\
+    \textbf{Actor system interaction model: View the map of campus }\\
+    \begin{tabular}{ | p{6cm} | p{6cm} |}
+    \hline
+    Actor: Mobile User & System: NavUp \\ \hline
+     & 0. The mobile app displays the main menu with the map and map info occupying most of the screen at the default position.\\ \hline
+    1. The user scrolls around the map & 2. The app updates the map the map and map info that's in view, pulling information from the remote repository if needed and if possible.\\ \hline
+    
+    \end{tabular}
+\\
+\bigskip
 
 \FuncReq
 {Notifications and alerts should be pushed to users}
