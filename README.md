@@ -16,3 +16,5 @@ Workflow conventions:
 4. Merge a finished feature into feature branch
 
 5. Merge each document version into master and label the version
+
+6. Feature freeze will commence on Feb23 6PM. The bulk of work should be done before then, only fixes to typesetting, formatting and other touchups will be done after this time. Complete freeze will commence 2 hours before the deadline to ensure that no changes have unintended consequences.
