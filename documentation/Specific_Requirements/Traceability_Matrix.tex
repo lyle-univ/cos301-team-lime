@@ -1,23 +1,46 @@
 \documentclass{article}
-\usepackage{booktabs,amssymb,makecell,rotating}
 \begin{document}
-\renewcommand*\theadfont{\bfseries}
-\settowidth\rotheadsize{\theadfont Infrastructure}
-\begin{table}
-  \centering
-  \caption{Traceability Matrix}
-  \begin{tabular}{lcccc}
-    \toprule
-     \thead{Functional\\Requirements} & \rothead{Mobile} & \rothead{Web} & \rothead{Agent} & \rothead{Repository}\\
-    \midrule
-    Login User &  &  &  &  &  &  &  &  \\
-    Guest User &  &  &  &  &  &  &  &  \\
-    Disabled User &  &  &  &  &  &  &  &  \\
-    Goals Mobile UI &  &  &  &  &  &  &  &  \\
-    Goals Web UI &  &  &  &  &  &  &  &  \\
-    Database &  &  &  &  &  &  &  &  \\
-    Authentication &  &  &  &  &  &  &  &  \\
-    \bottomrule
+\begin{table}[]
+\centering
+\caption{Traceability Matrix}
+\label{my-label}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Functional\\ Requirements\end{tabular} & Mobile & Web & Agent & Repository \\ \hline
+F2                                                                & X      &     &       &            \\ \hline
+F3                                                                & X      &     &       &            \\ \hline
+F4                                                                & X      &     &       &            \\ \hline
+F5                                                                & X      &     &       &            \\ \hline
+F6                                                                & X      &     &       &            \\ \hline
+F7                                                                & X      &     &       &            \\ \hline
+F8                                                                & X      &     & X     & X          \\ \hline
+F9                                                                & X      & X   &       &            \\ \hline
+F10                                                               & X      &     &       &            \\ \hline
+F11                                                               & X      &     &       &            \\ \hline
+F12                                                               & X      &     &       &            \\ \hline
+F13                                                               & X      & X   & X     & X          \\ \hline
+F14                                                               & X      &     &       &            \\ \hline
+F15                                                               & X      &     & X     &            \\ \hline
+F16                                                               & X      &     &       & X          \\ \hline
+F17                                                               & X      & X   &       & X          \\ \hline
+F18                                                               & X      &     & X     &            \\ \hline
+F19                                                               & X      &     & X     & X          \\ \hline
+F20                                                               & X      & X   & X     &            \\ \hline
+F21                                                               & X      &     &       & X          \\ \hline
+F22                                                               & X      &     & X     & X          \\ \hline
+F23                                                               & X      &     &       & X          \\ \hline
+F24                                                               & X      &     &       &            \\ \hline
+F25                                                               &        & X   & X     & X          \\ \hline
+F26                                                               &        &     & X     & X          \\ \hline
+F27                                                               & X      & X   & X     &            \\ \hline
+F28                                                               & X      &     &       & X          \\ \hline
+F29                                                               & X      & X   &       &            \\ \hline
+F30                                                               & X      & X   & X     &            \\ \hline
+F31                                                               &        & X   & X     &            \\ \hline
+F32                                                               & X      &     & X     &            \\ \hline
+F33                                                               & X      &     &       & X          \\ \hline
+F34                                                               &        & X   &       & X          \\ \hline
+F35                                                               &        & X   &       & X          \\ \hline
 \end{tabular}
 \end{table}
 \end{document}
