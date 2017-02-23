@@ -1,14 +1,14 @@
 The data-capture adds the system's metadata such as building location , history ,campus events etc.
-Since the system will provide indoor navigation the metadata inside the will not be entirely visible on the external map hence on entrance of a building the map needs to change to display a map of the building entered.
+Since the system will provide indoor navigation the metadata indoors will not be entirely visible on the external map hence upon entrance of a building the map needs to change to display a buildings internal map.
 
 \FuncReq{ Data-capture user log-in}
-	  	{-Administrator enters credentials so system can validate them.
-	 	-System grants access if administrator user-name and password is correct.
+	  	{-Data-capture user enters credentials so system can validate them.
+	 	-System grants access if the data-capture user's user-name and password is correct.
 	 	-System denies if incorrect.}
                   {TODO}
                   {TODO}
 \FuncReq{ Data-capture user recover-password}
-		{-Administrator has to select the recover-password option.
+		{-Data-capture user has to select the recover-password option.
 		-System send confirmation email to user-name email address.
 		-Data-capture user has to enter password sent to email.
 	  	-System allows data-capture user to set a new password if confirmation email password was correct else reject and back                    to log-in page.}
@@ -18,28 +18,23 @@ Since the system will provide indoor navigation the metadata inside the will not
 \FuncReq { 
 \FuncReq {Adding or updating the campus building names on the system}
          {-Data-capture may add or update a building names that are locations on the map.
-          -System displays the map of the campus and data-capture user may select a location and add or update the building name.}
+          -System displays the map of the campus and data-capture user selects a location and add or update the building name.}
           {TODO}
           {TODO}
 \FuncReq{Adding or updating a buildings history}
          {-Data-capture user may add or update a building's history that is on the map.
-          -System displays the map of the campus and data-capture user may select a existing building and add or update the                         building's history.}
+          -System displays the map of the campus and data-capture user selects a existing building and add or update the                            building's history.}
           {TODO}
           {TODO}
 \FuncReq{Adding or updating a buildings or area as a point of interest}
          {-Data-capture user may add a building or an area as a point of interest.}
-          -System displays the map of the campus and data-capture user may select a existing building or area and add it as a                      point of interest.}
+          -System displays the map of the campus and data-capture user selects a existing building or area and adds it as a                       point of interest.}
           {TODO}
           {TODO}
-\FuncReq{Adding or updating an event}
-        {-Data capture user may add a event or update so it is displayed on the map.
-        -System displays the map of the campus and data-capture user may select a existing building , lecture hall , room or area and            add or update event so that the location or area is highlighted to display event taking place. A read further option is                  available for more details of the event.Data-capture user has to supply the details when adding the event.}
-        {TODO}
-        {TODO}
 \FuncReq {Labeling a entrance.}
          {-Data-capture user may add or update the name of a entrance of the campus.}
          {-System displays the map of the campus and data-capture user may select a existing entrance on the map and label the entrance.
-         Information will be updated on the map.}
+         }
          {TODO}
          {TODO}
 \subsubsection { Internal map metadata }
@@ -54,7 +49,11 @@ Since the system will provide indoor navigation the metadata inside the will not
          {TODO}
          {TODO}
  
-
+\FuncReq{Adding or updating an event}
+        {-Data capture user may add a event or update so it is displayed on the map.
+        -System displays the map of the campus and data-capture user may select a existing building , lecture hall , room or area and            add or update event so that the location or area is highlighted to display event taking place. A read further option is                  available for more details of the event.Data-capture user has to supply the details when adding the event.}
+        {TODO}
+        {TODO}
  
          
            
