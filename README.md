@@ -18,3 +18,5 @@ Workflow conventions:
 5. Merge each document version into master and label the version
 
 6. Feature freeze will commence on Feb23 12PM. The bulk of work should be done before then, only fixes to typesetting, formatting and other touchups will be done after this time. Complete freeze will commence 1 hour before the deadline, this means that all issues should be resolved and closed before then. This is to prevent last minute changes having unintended consequences.
+
+Please note that zaiteki is Lyle Nel. There is a bug in github when the git config is not run on a fresh directory.
