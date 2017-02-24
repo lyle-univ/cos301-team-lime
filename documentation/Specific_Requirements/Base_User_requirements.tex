@@ -138,15 +138,16 @@ The base user requirements outlines the base/foundation functionality of the sys
 \FuncReq
 {Notifications and alerts should be pushed to users}
 {The mobile app will receive broadcasts from the remote repository in the event of a emergency. In emergency situations the application could be used to give users directions to assembly places or other appropriate directions.}
-{A disaster scenario has taken place}
+{A disaster scenario has taken place and device is connected}
 {Trivial}
     \\
     \textbf{Actor system interaction model: Notifications and alerts should be pushed to users }\\
     \begin{tabular}{ | p{6cm} | p{6cm} |}
     \hline
     Actor: Mobile User & System: NavUp \\ \hline
-     & 0. The mobile application will display alerts and important messages in the form of notifications on the mobile device.\\ \hline
-    1. The user can click on the notification to view an expanded explanation and description. & 2. The application can update emergency routes for users to follow to a safe location.\\ \hline
+     & 0. The remote repository broadcasts an emergency message to connected mobile devices. \\ \hline
+    1. The mobile application will display alerts and important messages in the form of notifications on the mobile device. &
+    2. The user can click on the notification to view an expanded explanation and description. & 3. The repository may push emergency routes to users if needed.\\ \hline
     
     \end{tabular}
 \\
