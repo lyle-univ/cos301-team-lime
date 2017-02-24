@@ -1,0 +1,19 @@
+\newcounter{FuncReqSerial}
+
+\newcommand{\FuncReq} [4]{
+    \refstepcounter{FuncReqSerial}
+	\noindent
+    \textbf{Serial}:F\theFuncReqSerial\\
+    \textbf{Abstract}: #1\\
+    \textbf{Description}: #2\\
+    \textbf{Pre-condition}: #3\\
+    \textbf{Post-condition}: #4\\
+}
+
+\input{Specific_Requirements/Navigation}
+\clearpage
+\input{Specific_Requirements/Agent_Requirements}
+\clearpage
+\input{Specific_Requirements/WebUI}
+\clearpage
+\input{Specific_Requirements/Goals}
