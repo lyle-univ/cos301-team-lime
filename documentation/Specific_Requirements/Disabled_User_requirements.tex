@@ -67,15 +67,15 @@ The Disabled User Requirements extends from the Logged in or Guest User Requirem
 \FuncReq
 {Emergency button.}
 {The user can use this special feature to alert the system in the event of an emergency so that nearest wheel chair friendly route to exit point for the disabled user can be displayed.The feature uses the current location of the user to find the fastest wheel chair friendly route.}
-{User must be logged in as a disabled user.}
+{Trivial}
 {Emergency personnel are sent to assist the user.}
     \\
     \textbf{Actor system interaction model: Emergency Button}\\
     \begin{tabular}{ | p{6cm} | p{6cm} |}
     \hline
     Actor: Disabled User & System: NavUp \\ \hline
-     & 0. The mobile application will display an emergency button or recognise an emergence use-phrase.\\ \hline
-    1. The user invokes the use of the emergency button or phrase. & 2. The emergency personnel are notified and are provided with the location of the user.\\ \hline   
+      & 0. The mobile application will display an emergency button or respond to a push event from the remote repository.\\ \hline
+      & 1. The emergency personnel are notified and are provided with the location of the user.\\ \hline   
     \end{tabular}
 \\
 \bigskip
