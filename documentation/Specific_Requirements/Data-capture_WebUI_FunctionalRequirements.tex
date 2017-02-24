@@ -1,40 +1,30 @@
 The data-capture adds the system's metadata such as building location , history ,campus events etc. Since the system will provide indoor navigation the metadata indoors will not be entirely visible on the external map hence upon entrance of a building the map needs to change to display a buildings internal map.
 
 \FuncReq
-  {Data-capture user authentication}
-  {The usual things are required for authentication}
-  {Trivial}
-  {Trivial}
+{Data-capture user authentication}
+{The usual things are required for authentication}
+{Trivial}
+{Trivial}
 
-\FuncReq {CRUD building information}
+\FuncReq
+{CRUD building information}
 {CRUD of building information. This includes building names, positions and historical trivia}
 {Trivial}
 {Trivial}
 
-\FuncReq {CRUD landmarks}
-{Landmarks include artwork }
+\FuncReq
+{CRUD building floorplans}
+{CRUD of building floorplans include location of rooms and disability ramps as well as conventional stairs.}
 {Trivial}
 {Trivial}
 
-\subsubsection {Internal map metadata.}
-\FuncReq {Adding or updating the locations inside a building on the system.}
-{-Data-capture users may add or update lecture halls ,rest rooms or office names that are locations on the map.
-	-The System displays the map of campus and the data-capture user may select a location and add or update the name of that location.}
-{Trivial}
-{Trivial}
-
-\FuncReq{Adding an elavator or staircase inside a building on the system}
-{-Data-capture users may label an existing elavator's, stair case or emergency exit location inside a building on the map.
--The System displays an internal map and the data capture user may select the elevator or staircase then label it so it can be highlighted on the map.}
+\FuncReq
+{CRUD other map data}
+{This includes routes, walkways, roads, entrances and other landmarks such as artwork.}
 {Trivial}
 {Trivial}
  
-\FuncReq{Adding or updating an event.}
-{-Data capture users may add an event or update it so that it is displayed on the map.
-        -The System displays the map of campus and the data-capture user may select an existing building, lecture hall, room or area and add or update an event so that the location or area is highlighted to display an event taking place. A read further option is available for more details of the event. Data-capture users have to supply the details when adding an event.}
+\FuncReq{CRUD events.}
 {Trivial}
 {Trivial}
- 
-         
-           
-         
+{Trivial}
